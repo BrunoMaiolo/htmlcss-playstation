@@ -42,3 +42,57 @@ a:hover {
 .main-nav .nav-link:hover .nav-chevron {
   filter: brightness(1.2);
 }
+
+/*RETURNAL*/
+.hero-returnal {
+  background-image: url("./img/jumbo-bg.png");
+  background-size: cover;
+  background-position: center top;
+  min-height: 420px;
+  color: #ffffff;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.hero-returnal .container {
+  position: relative;
+  z-index: 1;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  max-width: 960px;
+}
+
+.hero-game-logo {
+  max-width: 260px;
+}
+
+.hero-text {
+  max-width: 380px;
+  font-size: 0.9rem;
+}
+
+.hero-cta {
+  border-radius: 999px;
+  padding-inline: 2rem;
+  padding-block: 0.55rem;
+}
+
+/* colore rosso personalizzato */
+.btn-danger.hero-cta {
+  background-color: #e60012;
+  border-color: #e60012;
+}
+
+.btn-danger.hero-cta:hover {
+  background-color: #ff1a1a;
+  border-color: #ff1a1a;
+}
