@@ -319,3 +319,14 @@ a:hover {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+/*Playstation Now*/
+.section-psnow {
+  background-color: #003087;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.psnow-img {
+  max-width: 360px;
+}
