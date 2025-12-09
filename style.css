@@ -256,3 +256,60 @@ a:hover {
 .section-explore-ps4 img {
   max-width: 220px;
 }
+
+/*Playstation plus*/
+.section-psplus {
+  background-color: #d7d7d7;  
+}
+
+.psplus-card {
+  background-color: #d7d7d7;
+  padding: 3rem 2rem;
+  border-radius: 0;
+  display: flex;
+  width: 100%;
+  min-height: 330px;
+}
+
+
+.psplus-left h3 {
+  font-size: 1.8rem;
+}
+
+.psplus-left p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+
+.psplus-btn,
+.psplus-btn.btn {
+  color: #0070d1 !important;     
+  background-color: #ffffff !important;
+  border: 2px solid #dadada !important;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 0.65rem 1.6rem;
+  font-size: 0.92rem;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+  transition: 0.2s ease;
+}
+
+.psplus-btn:hover,
+.psplus-btn.btn:hover {
+  background-color: #f3f3f3 !important;
+  border-color: #c7c7c7 !important;
+}
+
+
+
+
+.psplus-right {
+  flex-shrink: 0;
+}
+
+.psplus-main-img {
+  max-height: 330px; 
+  object-fit: cover;
+}
