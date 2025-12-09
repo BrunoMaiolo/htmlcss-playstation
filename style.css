@@ -247,4 +247,12 @@ a:hover {
   margin: 0;
 }
 
+/*Esplora ps4*/
+.section-explore-ps4 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
+.section-explore-ps4 img {
+  max-width: 220px;
+}
