@@ -342,3 +342,35 @@ a:hover {
   height: 60px;
   object-fit: contain;
 }
+
+/*Footer*/
+.ps-footer {
+  background-color: #00439c;
+}
+
+.ps-footer a {
+  color: white;
+  opacity: 0.9;
+}
+.ps-footer a:hover {
+  opacity: 1;
+}
+
+
+.footer-links ul {
+  text-align: left;
+}
+
+.footer-links {
+  justify-content: flex-end;  
+}
+
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.footer-bottom p {
+  line-height: 1.4;
+}
