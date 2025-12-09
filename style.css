@@ -330,3 +330,15 @@ a:hover {
 .psnow-img {
   max-width: 360px;
 }
+
+/*Social*/
+.section-social {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
