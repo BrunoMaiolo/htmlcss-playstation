@@ -201,3 +201,50 @@ a:hover {
 .it-logo {
   max-width: 220px;
 }
+
+/*Nuove uscite*/
+.section-new-releases {
+  background-color: #181818;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-new-releases .game-card {
+  background-color: #202020;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.section-new-releases .game-card img {
+  width: 100%;
+  height: 180px;      
+  object-fit: cover;  
+  display: block;
+}
+
+.section-new-releases .game-card {
+  height: 250px;       /* 🔥 Tutte le card stessa altezza */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.game-card-body {
+  padding: 0.5rem 0.6rem 0.75rem;
+}
+
+.game-title {
+  color: #ffffff;
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.game-sub {
+  color: #b3b3b3;
+  margin: 0;
+}
+
+
