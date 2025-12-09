@@ -313,3 +313,9 @@ a:hover {
   max-height: 330px; 
   object-fit: cover;
 }
+
+/*Sconti PS store*/
+.section-psstore-deals {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
