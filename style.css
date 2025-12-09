@@ -128,3 +128,18 @@ a:hover {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/*introduzione PS5*/
+.section-ps5-intro {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-ps5-intro p.text-primary {
+  color: #0070d1 !important;
+  letter-spacing: 0.12em;
+}
+
+.section-ps5-intro h2 {
+  font-size: 1.6rem;
+}
