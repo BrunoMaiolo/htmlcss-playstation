@@ -96,3 +96,35 @@ a:hover {
   background-color: #ff1a1a;
   border-color: #ff1a1a;
 }
+
+.hero-thumbs {
+  border-top: 1px solid #e6e6e6;
+}
+
+.hero-thumbs-row {
+  padding-top: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.hero-thumb-img {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+
+.hero-thumb-img.border-primary {
+  box-shadow: 0 0 0 2px #0070d1;
+}
+
+
+.hero-thumbs-row::-webkit-scrollbar {
+  display: none;
+}
+.hero-thumbs-row {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
