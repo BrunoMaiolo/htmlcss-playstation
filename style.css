@@ -169,3 +169,35 @@ a:hover {
 .ps5-prod-active .ps5-prod-img {
   transform: scale(1.05);
 }
+
+/*It takes two*/
+.hero-ittakestwo {
+  background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 360px;
+  position: relative;
+}
+
+.hero-overlay-light {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.1)
+  );
+}
+
+.hero-ittakestwo .container {
+  position: relative;
+  z-index: 1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.hero-ittakestwo-content {
+  max-width: 380px;
+}
+
+.it-logo {
+  max-width: 220px;
+}
