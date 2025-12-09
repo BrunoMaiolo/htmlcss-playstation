@@ -143,3 +143,29 @@ a:hover {
 .section-ps5-intro h2 {
   font-size: 1.6rem;
 }
+
+/*  PS5 */
+
+.section-ps5-console {
+  padding-bottom: 3rem;
+}
+
+.ps5-main-img {
+  max-width: 480px;
+}
+
+.ps5-products-row .ps5-prod-img {
+  max-width: 80px;
+}
+
+.ps5-prod-active {
+  border: 3px solid #0070d1;
+  border-radius: 16px;
+  padding: 0.75rem 0.5rem;
+  background-color: #f0f7ff;
+  box-shadow: 0 0 0 3px rgba(0, 112, 209, 0.2);
+}
+
+.ps5-prod-active .ps5-prod-img {
+  transform: scale(1.05);
+}
