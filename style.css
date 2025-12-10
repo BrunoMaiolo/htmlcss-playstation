@@ -158,17 +158,36 @@ a:hover {
   max-width: 80px;
 }
 
-.ps5-prod-active {
-  border: 3px solid #0070d1;
-  border-radius: 16px;
-  padding: 0.75rem 0.5rem;
-  background-color: #f0f7ff;
-  box-shadow: 0 0 0 3px rgba(0, 112, 209, 0.2);
+
+.ps5-products-row > div {
+  position: relative;
+  padding-bottom: 1.4rem; 
 }
 
-.ps5-prod-active .ps5-prod-img {
-  transform: scale(1.05);
+
+.ps5-prod-active {
+  border: none;
+  background: transparent;
+  box-shadow: none;
 }
+
+.ps5-prod-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 70%;            
+  height: 3px;
+  background-color: #0070d1;
+  border-radius: 999px;  
+}
+
+
+.ps5-prod-active .ps5-prod-img {
+  transform: none;
+}
+
 
 /*It takes two*/
 .hero-ittakestwo {
@@ -223,7 +242,7 @@ a:hover {
 }
 
 .section-new-releases .game-card {
-  height: 250px;       /* 🔥 Tutte le card stessa altezza */
+  height: 250px;       
   display: flex;
   flex-direction: column;
   justify-content: space-between;
